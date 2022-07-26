@@ -6,7 +6,7 @@
 
 .container{
     display: inline-grid;
-    grid-template: repeat(4 ,1fr) / repeat(4 ,1fr);
+    grid-template: repeat(16 ,1fr) / repeat(16 ,1fr);
     background-color: lightblue;
     height: 100vh;
     width: 100vw;
@@ -15,4 +15,29 @@
 .pg{
     border: 1px solid;
     text-align: center;
+}
+
+.navbar{
+    grid-column: 1 / 4;
+    grid-row: 1 / 17;
+}
+
+.search{
+    grid-column: 4 / 17;
+    grid-row: 1 / 2;
+}
+
+.account{
+    grid-column: 4 / 17;
+    grid-row: 2 / 4;
+}
+
+.projects{
+    grid-column: 4 / 14;
+    grid-row: 4 / 17;
+}
+
+.sidebar{
+    grid-column: 14 / 17;
+    grid-row: 4 / 17;
 }
