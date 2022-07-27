@@ -65,7 +65,7 @@
 .search{
     grid-column: 4 / 17;
     grid-row: 1 / 2;
-    background-color: #bae6fd;
+    background-color: white;
 }
 
 .search-icon{
@@ -79,14 +79,16 @@
     /* border-radius: 10px; */
 }
 
-.search-icon{
+.magImg{
     vertical-align: middle;
 
 }
 
 input{
-    width:100%;
+    width:90%;
     height: 100%;
+    /* border: 1px solid; */
+
 }
 
 textarea:focus, input:focus{
@@ -100,9 +102,14 @@ input::placeholder {
 }
 
 input , textarea{
-    background-color: #e0f2fe    ;
+    background-color: #white;
 }
 
+.magImg{
+    width: 25px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
 
 
 
@@ -111,7 +118,47 @@ input , textarea{
 .account{
     grid-column: 4 / 17;
     grid-row: 2 / 3;
+    display: flex;
+
 }
+
+
+
+.profilepic{
+    width: 50px;
+    border: 1px solid;
+    border-radius: 30px;
+    margin-left: 15px;
+}
+
+.profiletext{
+    padding-left: 20px;
+    padding-top: 9px;
+}
+
+.pone{
+    font-size: 12px;
+}
+
+.profilebuttons{
+    padding-left: 35VW;
+    padding-top: 8px;
+}
+
+.profilebuttons > button{
+    border:1px solid #0ea5e9;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #0ea5e9;
+    color: white;
+    margin: 5px
+}
+
+
+
+
 
 .projects{
     grid-column: 4 / 14;
