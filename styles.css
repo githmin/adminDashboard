@@ -41,6 +41,7 @@
 .navbarul{
     text-align: left;
     list-style-type: none;
+    font-size: 14px;
 }
 
 .liitem{
@@ -61,7 +62,7 @@
     color: white;
 }
 
-/* Search  */
+
 .search{
     grid-column: 4 / 17;
     grid-row: 1 / 2;
@@ -73,13 +74,12 @@
 .search-icon{
     height: 30px;
     padding-top: 20px;
-    padding-left: 30px;
 }
 
 .search-box{
-    /* border: 2px solid; */
-    /* border-radius: 10px; */
+    background-color: #F0F9FF;
 }
+
 
 .magImg{
     vertical-align: middle;
@@ -94,9 +94,6 @@ input{
 
 }
 
-textarea:focus, input:focus{
-    /* outline: none; */
-}
 
 input,
 input::placeholder {
@@ -105,7 +102,7 @@ input::placeholder {
 }
 
 input , textarea{
-    background-color: #white;
+    background-color: white;
 }
 
 .magImg{
@@ -117,7 +114,6 @@ input , textarea{
 .searchbaricn{
     width: 20px;
     padding-left: 6vw;
-    /* padding-top: 8px; */
 }
 
 .searchbaricn2{
@@ -177,7 +173,7 @@ input , textarea{
 
 .projects{
     grid-column: 4 / 14;
-    grid-row: 3 / 17;
+    grid-row: 3 / 16;
     background-color: #f0f9ff;
     padding: 15px;
     padding-left: 19px;
@@ -297,4 +293,17 @@ input , textarea{
 .username{
     padding-top: 15px;
     padding-left: 10px;
+}
+
+.footer{
+    grid-column: 4 / 14;
+    grid-row: 16 / 17;
+    background-color: #F0F9FF;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer a{
+    text-decoration: none;
 }
