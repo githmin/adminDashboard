@@ -237,6 +237,8 @@ input , textarea{
     grid-column: 14 / 17;
     grid-row: 3 / 10;
     overflow: auto;
+    background-color:#F0F9FF ;
+
 }
 
 .announcements{
@@ -245,7 +247,7 @@ input , textarea{
 }
 
 .sbitem{
-    background-color: white;
+    background-color:white ;
     border: black;
     border-radius: 10px;
     color: black;
@@ -261,6 +263,8 @@ input , textarea{
 
 .sb{
     padding: 10px;
+    background-color:#F0F9FF ;
+
 }
 
 
